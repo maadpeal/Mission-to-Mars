@@ -13,13 +13,12 @@
 
 ## Summary
     - The first thing to do is to inspect the pages from which you want to
-    obtain the required information (image D-1).
-    - Verify that there are no restrictions to obtain the information automatically (image E-1).
+    obtain the required information.
     - Review the structures of the pages that we want to obtain the information to know which tags
-     we should get (image F-1).
+     we should get (image D-1).
     - Get the html using SPLINTER
     - Parse the html into an object with BeautifulSoup
     - Once the object is obtained, we can extract all the information that we require to save it in mongo.
     - Once in mongo we can retrieve it through apis calls with flask.
     - We load the data with html enhanced with bootstrap.
-    - A diagram to appreciate the general process (image G-1)
+    - A diagram to appreciate the general process (image E-1)
